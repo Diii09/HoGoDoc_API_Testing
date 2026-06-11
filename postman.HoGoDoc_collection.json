@@ -1,0 +1,3918 @@
+{
+  "info": {
+    "_postman_id": "43d9ff5d-dff4-4420-b0e9-7ab7acbaa733",
+    "name": "hogodoc",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33559869"
+  },
+  "item": [
+    {
+      "name": "API_Login - Valid Credentials",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "{{EmailAddress}}",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "55bec97d20f0632674c179602ad98098",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "false",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_Login - Empty EmailAddress",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "e10adc3949ba59abbe56e057f20f883e",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "false",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_Login - Empty Password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "{{EmailAddress}}",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "false",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_Login - Empty EmailAddress and Password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "false",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_Login - Invalid Email Format",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "{{EmailAddress}}",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "e10adc3949ba59abbe56e057f20f883e",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "false",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_Login - Invalid EmailAddress",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "{{EmailAddress}}",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "e10adc3949ba59abbe56e057f20f883e",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "false",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_Login - Invalid Password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "{{EmailAddress}}",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "e10adc3949ba59abbe56e057f20f883",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "false",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_Login - Unencrypted Password",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "{{EmailAddress}}",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "abc",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "false",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_Login - KeepMeLogin Enabled",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "EmailAddress",
+              "value": "{{EmailAddress}}",
+              "type": "text",
+              "uuid": "60a4ad8e-317f-4a55-a534-dd85b6161c29"
+            },
+            {
+              "key": "Password",
+              "value": "55bec97d20f0632674c179602ad98098",
+              "type": "text",
+              "uuid": "f22dd9a0-67da-40be-bd6f-07785ed77a5b"
+            },
+            {
+              "key": "KeepMeLogin",
+              "value": "true",
+              "type": "text",
+              "uuid": "f110868c-f9d1-4317-a245-061948f6d65b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/Login",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "Login"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Valid SessionID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "768524f818f94634872ac896b761ef45",
+              "type": "text",
+              "uuid": "b5c6dffd-e108-49f0-81c4-f5aee24578c9"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Empty SessionID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Invalid SessionID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "768524f818f94634872ac896b761ef",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Empty SearchString",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"Status is OK\", function () {\r",
+              "    pm.response.to.have.status(200);\r",
+              "});\r",
+              "\r",
+              "pm.test(\"Response has status OK\", function () {\r",
+              "    let json = pm.response.json();\r",
+              "    pm.expect(json.status).to.eql(\"OK\");\r",
+              "});"
+            ],
+            "type": "text/javascript",
+            "packages": {},
+            "requests": {}
+          }
+        }
+      ],
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString ",
+              "value": "",
+              "type": "text",
+              "uuid": "b20ca7c0-644a-4258-8752-f794a7843203"
+            },
+            {
+              "key": "SortType ",
+              "value": "1",
+              "type": "text",
+              "uuid": "9734e540-3621-499c-9a9e-392f1f2e05d4"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - XSS Injection in SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "<script>alert(1)</script>",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "1",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Special Characters in SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "@@!$",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "1",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - SQL Injection in SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "' OR 1=1 --",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "1",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Valid SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "1",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Empty SortType",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Invalid Data Type for SortType",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "aa",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Sort by Title Ascending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "1",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Sort by Title Descending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "2",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Sort by Description Ascending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "3",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Sort by Description Descending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "4",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Sort by CreateDate Ascending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "5",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "PI_GetDocumentList - Sort by CreateDate Descending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "6",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Sort by Status Ascending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "7",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - Sort by Status Descending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "8",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentList - SortType Out of Range",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "SortType",
+              "value": "100",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Valid SessionID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Empty SessionID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Invalid SessionID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "1assdsakgndakknnkasbs ",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - DisplayLength Exceeds Limit",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "9999",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Negative DisplayLength",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "-1",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Zero DisplayLength",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "0",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Minimum DisplayLength",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "1",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Empty DisplayLength",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Invalid Data Type for DisplayLength",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "acx",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Empty DisplayStart",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Negative DisplayStart",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "-1",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - DisplayStart Out of Range",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "9999",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Invalid Data Type for DisplayStart",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "ab2",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Negative sEcho",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "-1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Invalid Data Type for sEcho",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1as",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Zero sEcho",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "0",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - sEcho Out of Range (Valid Response 200)",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "9999",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Valid SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "93f5f957-0baa-457f-b3b5-40be18eac748"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Empty SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            },
+            {
+              "key": "SearchString",
+              "value": "",
+              "type": "text",
+              "uuid": "def140de-eb32-4670-8b9e-aff1ab0a579d"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - XSS Injection in SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b"
+            },
+            {
+              "key": "SearchString",
+              "value": "<script>alert(1)</script>",
+              "type": "text",
+              "uuid": "f3fb76ff-471c-4e31-ad0d-e176b6898ce1"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SQL Injection in SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "' OR 1=1 --",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Numeric Input in SearchString",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "1",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentList",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentList"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType = Title Ascending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "1",
+              "type": "text",
+              "uuid": "734df1fa-f1ce-4cc1-abc8-07a0a7dbc3f5"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType = Title Descending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "2",
+              "type": "text",
+              "uuid": "6a0a8ab6-5e28-42fd-ba4e-21f417815d0b"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType = Description Ascending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "3",
+              "type": "text",
+              "uuid": "90f6fbb1-a40d-42d5-bc7b-f6bf4a770ddd"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType = Description Descending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "4",
+              "type": "text",
+              "uuid": "90f6fbb1-a40d-42d5-bc7b-f6bf4a770ddd"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType = CreateDate Ascending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "5",
+              "type": "text",
+              "uuid": "6081db65-35e6-42b2-8448-24190587736f"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType = CreateDate Descending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "6",
+              "type": "text",
+              "uuid": "e5285ce8-4123-4460-8412-5bfd0a62dc63"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType = Status Ascending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "7",
+              "type": "text",
+              "uuid": "70ac9015-8329-411d-b2c2-749e08e1ad4a"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType = Status Descending",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "8",
+              "type": "text",
+              "uuid": "70ac9015-8329-411d-b2c2-749e08e1ad4a"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - Empty SortType",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "",
+              "type": "text",
+              "uuid": "70ac9015-8329-411d-b2c2-749e08e1ad4a"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType Invalid Value (100) - HTTP 500",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "100",
+              "type": "text",
+              "uuid": "70ac9015-8329-411d-b2c2-749e08e1ad4a"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentListDetail - SortType Invalid Data Type (String) - Returns Valid Response",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "791ad85c-044b-4b0e-b75d-e1b7644b7a47"
+            },
+            {
+              "key": "SearchString",
+              "value": "a",
+              "type": "text",
+              "uuid": "b8ecc278-d1e2-40c9-bf2e-82ab9693aace"
+            },
+            {
+              "key": "DisplayLength",
+              "value": "10",
+              "type": "text",
+              "uuid": "0697a524-5c18-4802-bd89-69de3e4e7f03"
+            },
+            {
+              "key": "DisplayStart",
+              "value": "0",
+              "type": "text",
+              "uuid": "806fffad-fd6c-4012-ada1-f21290841190"
+            },
+            {
+              "key": "sEcho",
+              "value": "1",
+              "type": "text",
+              "uuid": "d8fb764e-f4d6-4bcc-982a-daa755c4a5c5"
+            },
+            {
+              "key": "SortType",
+              "value": "avc",
+              "type": "text",
+              "uuid": "70ac9015-8329-411d-b2c2-749e08e1ad4a"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentListDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentListDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentDetail - Valid DocumentID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "DocumentID",
+              "value": "fe61fdb0aad448b9b970ea8bb6cf3a52",
+              "type": "text",
+              "uuid": "2e3f7dd7-a152-4705-a545-e2610c8abccf"
+            },
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "e943bf06-ad27-42fc-962d-5cf967269b58"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentDetail - Empty DocumentID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "DocumentID",
+              "value": "",
+              "type": "text",
+              "uuid": "2e3f7dd7-a152-4705-a545-e2610c8abccf"
+            },
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "e943bf06-ad27-42fc-962d-5cf967269b58"
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentDetail - Invalid DocumentID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DocumentID",
+              "value": "61fdb0aad448b9b970ea8bb6cf3a52bv",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef",
+              "disabled": true
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentDetail - Empty SessionID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DocumentID",
+              "value": "fe61fdb0aad448b9b970ea8bb6cf3a52",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef",
+              "disabled": true
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentDetail - Invalid SessionID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "hjuihjg12hjbsahdnba",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DocumentID",
+              "value": "fe61fdb0aad448b9b970ea8bb6cf3a52",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef",
+              "disabled": true
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentDetail - SQL Injection in DocumentID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DocumentID",
+              "value": "<script>alert(1)</script>",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef",
+              "disabled": true
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentDetail"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "API_GetDocumentDetail - XSS Injection in DocumentID",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/x-www-form-urlencoded",
+            "type": "text"
+          }
+        ],
+        "body": {
+          "mode": "urlencoded",
+          "urlencoded": [
+            {
+              "key": "SessionID",
+              "value": "{{SessionID}}",
+              "type": "text",
+              "uuid": "ed668c88-92ef-4a0f-932d-5b2a10f44479"
+            },
+            {
+              "key": "DocumentID",
+              "value": "' OR 1=1 --",
+              "type": "text",
+              "uuid": "f18dd3e7-04fe-46fd-8e60-ba21fdf0f547"
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "a42667d3-ec35-4138-a8e3-ee6abf1429ef",
+              "disabled": true
+            },
+            {
+              "key": "",
+              "value": "",
+              "type": "text",
+              "uuid": "025c41ee-d43c-4886-993b-c89eff0a484b",
+              "disabled": true
+            }
+          ]
+        },
+        "url": {
+          "raw": "https://www.hogodoc.com/HoGo/api/v1/GetDocumentDetail",
+          "protocol": "https",
+          "host": [
+            "www",
+            "hogodoc",
+            "com"
+          ],
+          "path": [
+            "HoGo",
+            "api",
+            "v1",
+            "GetDocumentDetail"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
